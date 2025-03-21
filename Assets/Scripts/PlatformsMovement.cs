@@ -58,10 +58,9 @@ public class PlatformsMovement : MonoBehaviour
     public void IncreaseSpeed()
     {
         // Solo aumenta la velocidad de las plataformas si no está en dash
-        if (!dash.GetIsDashing())
-        {
+       
             speed += speedIncrease;
-        }
+        
     }
 
     // Detiene el movimiento
